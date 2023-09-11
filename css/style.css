@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Styles pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Styles pour l'en-tête */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1c67ad; /* Couleur de fond de l'en-tête */
+    padding: 10px 20px; /* Espacement intérieur de l'en-tête */
+    color: white; /* Couleur du texte dans l'en-tête */
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1 {
+    color: white;
+}
+/* Navbar */
+.nav a {
+    color: white;
+    margin-right: 2rem;
+}
+
+.nav-lien {
+
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+/* Css des formulaires de connexion et dinscription */
+#form-login p, #form-reg p {
+    text-align: center;
+}
+#form-reg {
+    margin-top: -3rem;
+}
+#switch-reg, #switch-login {
+    text-decoration: underline;
+    cursor: pointer;
+}
+#btn-log {
+    position: absolute;
+    bottom: -3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Classe pour les fonctions */
+
+/* Masquer un element */
+.none {
+    display: none;
+}
+
+#error-reg, #error-log, #error-quizz {
+    color: red;
+    text-align: center;
+}
+.start-game {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer.spin-button {
+  display: none;
+  -webkit-appearance: none;
+  margin: 0;
+}
